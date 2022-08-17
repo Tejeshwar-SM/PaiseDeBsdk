@@ -1,0 +1,151 @@
+/* "C:\xampp\htdocs\PaiseDeBdsk" */
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    
+    
+
+}
+/* .bg-opacity {
+    /* background: rgba(rgb(17, 24, 222), rgb(5, 5, 173), rgb(20, 20, 192), alpha); */
+    /* background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.8),transparent,rgba(0, 0, 0, 0.8)); */
+    /* height: 100vh; */
+/* } */ 
+
+    
+
+.bg-opacity h1{
+    
+    background: -webkit-linear-gradient(90deg,blue,blueviolet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-image
+{
+  background-image: url("images/ibrahim-rifath-OApHds2yEGQ-unsplash.jpg");
+  background-color: #282828;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  background-attachment: fixed;
+}
+/* .bg-image{
+    background-image: url("C:\Users\tejes\Downloads\ibrahim-rifath-OApHds2yEGQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+    background-attachment: fixed;
+} */
+.bg-main{
+    margin: -5px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: #242582;
+}
+/* .options {
+    width: 100%;
+    background-color: blueviolet;
+    /* background: -webkit-linear-gradient(90deg,blue,blueviolet); */
+    /* padding: 10px 5px; */
+    /* -webkit-background-clip: text; */
+  /* background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+/* } */ 
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.showcase{
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.meme1 {
+    margin: 10px;
+    width: 360px;
+    height: 375px;
+    border-radius: 10px;
+    box-shadow: #282828 5px 5px 15px;
+       
+}
+.meme2 {
+    margin: 10px;
+    width: 360px;
+    height: 375px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px ;
+}
+.para{
+    margin: 20px;
+    padding: 5px;
+    width: 40%;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #333;
+    font-size: larger;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.icons{
+    margin: 5px 50%;
+}
+.foot{
+
+    background-color: #F64C72;
+    margin: 4px 0px 0px 0px;
+    padding: 3px;
+}
+.foot a{
+
+    height: 20px;
+    font-size: large;
+    color: white;
+    
+}
+
+
+
